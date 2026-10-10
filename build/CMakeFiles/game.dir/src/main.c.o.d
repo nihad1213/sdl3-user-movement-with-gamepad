@@ -52,4 +52,18 @@ CMakeFiles/game.dir/src/main.c.o: \
  /usr/include/SDL3/SDL_sensor.h /usr/include/SDL3/SDL_keyboard.h \
  /usr/include/SDL3/SDL_keycode.h /usr/include/SDL3/SDL_scancode.h \
  /usr/include/SDL3/SDL_mouse.h /usr/include/SDL3/SDL_pen.h \
- /usr/include/SDL3/SDL_touch.h
+ /usr/include/SDL3/SDL_touch.h /usr/include/SDL3_image/SDL_image.h \
+ /usr/include/SDL3/SDL.h /usr/include/SDL3/SDL_assert.h \
+ /usr/include/SDL3/SDL_asyncio.h /usr/include/SDL3/SDL_bits.h \
+ /usr/include/SDL3/SDL_clipboard.h /usr/include/SDL3/SDL_cpuinfo.h \
+ /usr/include/SDL3/SDL_dialog.h /usr/include/SDL3/SDL_filesystem.h \
+ /usr/include/SDL3/SDL_gpu.h /usr/include/SDL3/SDL_haptic.h \
+ /usr/include/SDL3/SDL_hidapi.h /usr/include/SDL3/SDL_hints.h \
+ /usr/include/SDL3/SDL_init.h /usr/include/SDL3/SDL_loadso.h \
+ /usr/include/SDL3/SDL_locale.h /usr/include/SDL3/SDL_log.h \
+ /usr/include/SDL3/SDL_messagebox.h /usr/include/SDL3/SDL_metal.h \
+ /usr/include/SDL3/SDL_misc.h /usr/include/SDL3/SDL_platform.h \
+ /usr/include/SDL3/SDL_process.h /usr/include/SDL3/SDL_storage.h \
+ /usr/include/SDL3/SDL_system.h /usr/include/SDL3/SDL_time.h \
+ /usr/include/SDL3/SDL_timer.h /usr/include/SDL3/SDL_tray.h \
+ /usr/include/SDL3/SDL_version.h /usr/include/SDL3/SDL_oldnames.h

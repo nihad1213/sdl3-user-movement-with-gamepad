@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <SDL3/SDL.h>
 
+static bool load_engine_assets(Engine* engine, const char* image_path);
+
 Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags flags) {
     if (!SDL_Init(SDL_INIT_VIDEO)) {
         SDL_Log("Failed to initialize SDL: %s", SDL_GetError());
@@ -18,6 +20,13 @@ Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags fl
 
     engine->window = create_window(title, width, height, flags);
     if (engine->window == NULL) {
+        free(engine);
+        SDL_Quit();
+        return NULL;
+    }
+
+    if (!load_engine_assets(engine, "../assets/bg.gif")) {
+        destroy_window(engine->window);
         free(engine);
         SDL_Quit();
         return NULL;
@@ -53,4 +62,15 @@ void engine_shutdown(Engine* engine) {
         free(engine);
     }
     SDL_Quit();
+}
+
+
+
+static bool load_engine_assets(Engine* engine, const char* image_path) {
+    engine->background_texture = IMG_LoadTexture(engine->window->renderer, image_path);
+    if (engine->background_texture == NULL) {
+        SDL_Log("Failed to load background image: %s", SDL_GetError());
+        return false;
+    }
+    return true;
 }

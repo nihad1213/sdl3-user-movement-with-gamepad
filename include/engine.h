@@ -2,9 +2,11 @@
 
 #include "window.h"
 #include <stdbool.h>
+#include <SDL3_image/SDL_image.h>
 
 typedef struct {
     Window* window;
+    SDL_Texture* background_texture;
     bool is_running;
 } Engine;
 

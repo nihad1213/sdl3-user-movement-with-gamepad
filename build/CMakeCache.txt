@@ -204,6 +204,9 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //The directory containing a CMake configuration file for SDL3.
 SDL3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL3
 
+//The directory containing a CMake configuration file for SDL3_image.
+SDL3_image_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL3_image
+
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
 

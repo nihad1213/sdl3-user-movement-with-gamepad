@@ -128,6 +128,7 @@ game: CMakeFiles/game.dir/src/main.c.o
 game: CMakeFiles/game.dir/src/window.c.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/compiler_depend.ts
+game: /usr/lib/x86_64-linux-gnu/libSDL3_image.so.0.2.4
 game: /usr/lib/x86_64-linux-gnu/libSDL3.so.0.2.10
 game: CMakeFiles/game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable game"
