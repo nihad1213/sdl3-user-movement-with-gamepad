@@ -1,0 +1,3 @@
+/media/nihad/HDD231/C-Learning/sdl3-arena-game/build/CMakeFiles/game.dir
+/media/nihad/HDD231/C-Learning/sdl3-arena-game/build/CMakeFiles/edit_cache.dir
+/media/nihad/HDD231/C-Learning/sdl3-arena-game/build/CMakeFiles/rebuild_cache.dir
