@@ -1,6 +1,12 @@
 #include "window.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <SDL3/SDL_log.h>
+#include <SDL3/SDL_render.h>
+#include <stdbool.h>
+
+static bool init_window_and_renderer(Window* game, const char *title, int width, int height, 
+    SDL_WindowFlags flags);
 
 Window* create_window(const char *title, int width, int height, SDL_WindowFlags flags) {
     Window* game = (Window*)malloc(sizeof(Window));
@@ -18,6 +24,7 @@ Window* create_window(const char *title, int width, int height, SDL_WindowFlags 
         return NULL;
     }
 
+    return game;
 }
 
 void destroy_window(Window* game) {
