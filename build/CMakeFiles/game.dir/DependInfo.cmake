@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/engine.c" "CMakeFiles/game.dir/src/engine.c.o" "gcc" "CMakeFiles/game.dir/src/engine.c.o.d"
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/main.c" "CMakeFiles/game.dir/src/main.c.o" "gcc" "CMakeFiles/game.dir/src/main.c.o.d"
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/window.c" "CMakeFiles/game.dir/src/window.c.o" "gcc" "CMakeFiles/game.dir/src/window.c.o.d"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c" "CMakeFiles/game.dir/src/engine.c.o" "gcc" "CMakeFiles/game.dir/src/engine.c.o.d"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c" "CMakeFiles/game.dir/src/main.c.o" "gcc" "CMakeFiles/game.dir/src/main.c.o.d"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c" "CMakeFiles/game.dir/src/window.c.o" "gcc" "CMakeFiles/game.dir/src/window.c.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )
 

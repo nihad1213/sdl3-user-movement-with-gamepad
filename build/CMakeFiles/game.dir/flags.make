@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/media/nihad/HDD231/C-Learning/sdl3-arena-game/include
+C_INCLUDES = -I/media/nihad/HDD231/C-Learning/sdl3-knight-game/include
 
 C_FLAGS = -std=gnu2x -Wall -Wextra -Werror
 

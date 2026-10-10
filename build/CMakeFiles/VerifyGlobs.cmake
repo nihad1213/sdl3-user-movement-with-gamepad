@@ -3,13 +3,13 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES at CMakeLists.txt:11 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/*.c")
 set(OLD_GLOB
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/engine.c"
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/main.c"
-  "/media/nihad/HDD231/C-Learning/sdl3-arena-game/src/window.c"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c"
+  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/media/nihad/HDD231/C-Learning/sdl3-arena-game/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles/cmake.verify_globs")
 endif()
