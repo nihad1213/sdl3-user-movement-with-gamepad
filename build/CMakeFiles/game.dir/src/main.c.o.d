@@ -66,4 +66,6 @@ CMakeFiles/game.dir/src/main.c.o: \
  /usr/include/SDL3/SDL_process.h /usr/include/SDL3/SDL_storage.h \
  /usr/include/SDL3/SDL_system.h /usr/include/SDL3/SDL_time.h \
  /usr/include/SDL3/SDL_timer.h /usr/include/SDL3/SDL_tray.h \
- /usr/include/SDL3/SDL_version.h /usr/include/SDL3/SDL_oldnames.h
+ /usr/include/SDL3/SDL_version.h /usr/include/SDL3/SDL_oldnames.h \
+ /media/nihad/HDD234/C-Learning/sdl3-knight-game/include/player.h \
+ /media/nihad/HDD234/C-Learning/sdl3-knight-game/include/input.h

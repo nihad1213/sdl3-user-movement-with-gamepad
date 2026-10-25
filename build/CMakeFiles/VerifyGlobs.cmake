@@ -7,7 +7,9 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD234/C-Learning/sdl3-kn
 set(OLD_GLOB
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c"
+  "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/input.c"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c"
+  "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/player.c"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

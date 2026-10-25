@@ -15,4 +15,4 @@ add_executable(game ${SOURCES})
 
 target_include_directories(game PRIVATE "${CMAKE_SOURCE_DIR}/include")
 
-target_link_libraries(game PRIVATE SDL3::SDL3 SDL3_image::SDL3_image)
+target_link_libraries(game PRIVATE m SDL3::SDL3 SDL3_image::SDL3_image)

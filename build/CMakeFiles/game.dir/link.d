@@ -4,8 +4,15 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/game.dir/src/asset_loader.c.o \
   CMakeFiles/game.dir/src/engine.c.o \
+  CMakeFiles/game.dir/src/input.c.o \
   CMakeFiles/game.dir/src/main.c.o \
+  CMakeFiles/game.dir/src/player.c.o \
   CMakeFiles/game.dir/src/window.c.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
+  /lib/x86_64-linux-gnu/libm.so.6 \
+  /lib/x86_64-linux-gnu/libmvec.so.1 \
   /usr/lib/x86_64-linux-gnu/libSDL3_image.so.0.2.4 \
   /usr/lib/x86_64-linux-gnu/libSDL3.so.0.2.10 \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
@@ -28,12 +35,12 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o \
+  /lib64/ld-linux-x86-64.so.2 \
   /lib/x86_64-linux-gnu/libjpeg.so.62 \
   /lib/x86_64-linux-gnu/libtiff.so.6 \
   /lib/x86_64-linux-gnu/libwebp.so.7 \
   /lib/x86_64-linux-gnu/libwebpdemux.so.2 \
   /lib/x86_64-linux-gnu/libpng16.so.16 \
-  /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libasound.so.2 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
   /lib/x86_64-linux-gnu/libXext.so.6 \
@@ -52,7 +59,6 @@ game: \
   /lib/x86_64-linux-gnu/libwayland-cursor.so.0 \
   /lib/x86_64-linux-gnu/libxkbcommon.so.0 \
   /lib/x86_64-linux-gnu/libdecor-0.so.0 \
-  /lib64/ld-linux-x86-64.so.2 \
   /lib/x86_64-linux-gnu/libzstd.so.1 \
   /lib/x86_64-linux-gnu/liblzma.so.5 \
   /lib/x86_64-linux-gnu/libLerc.so.4 \
@@ -95,9 +101,23 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 CMakeFiles/game.dir/src/engine.c.o:
 
+CMakeFiles/game.dir/src/input.c.o:
+
 CMakeFiles/game.dir/src/main.c.o:
 
+CMakeFiles/game.dir/src/player.c.o:
+
 CMakeFiles/game.dir/src/window.c.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so:
+
+/lib/x86_64-linux-gnu/libm.so.6:
+
+/lib/x86_64-linux-gnu/libmvec.so.1:
 
 /usr/lib/x86_64-linux-gnu/libSDL3_image.so.0.2.4:
 
@@ -143,6 +163,8 @@ CMakeFiles/game.dir/src/window.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o:
 
+/lib64/ld-linux-x86-64.so.2:
+
 /lib/x86_64-linux-gnu/libjpeg.so.62:
 
 /lib/x86_64-linux-gnu/libtiff.so.6:
@@ -152,8 +174,6 @@ CMakeFiles/game.dir/src/window.c.o:
 /lib/x86_64-linux-gnu/libwebpdemux.so.2:
 
 /lib/x86_64-linux-gnu/libpng16.so.16:
-
-/lib/x86_64-linux-gnu/libm.so.6:
 
 /lib/x86_64-linux-gnu/libasound.so.2:
 
@@ -190,8 +210,6 @@ CMakeFiles/game.dir/src/window.c.o:
 /lib/x86_64-linux-gnu/libxkbcommon.so.0:
 
 /lib/x86_64-linux-gnu/libdecor-0.so.0:
-
-/lib64/ld-linux-x86-64.so.2:
 
 /lib/x86_64-linux-gnu/libzstd.so.1:
 

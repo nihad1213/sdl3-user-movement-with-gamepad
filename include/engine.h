@@ -1,11 +1,15 @@
 #pragma once
 
 #include "window.h"
+#include "player.h"
+#include "input.h"
 #include <stdbool.h>
 #include <SDL3_image/SDL_image.h>
 
 typedef struct {
     Window* window;
+    Player* player;
+    Input input;
     bool is_running;
 } Engine;
 

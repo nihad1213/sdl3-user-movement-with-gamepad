@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c" "CMakeFiles/game.dir/src/asset_loader.c.o" "gcc" "CMakeFiles/game.dir/src/asset_loader.c.o.d"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c" "CMakeFiles/game.dir/src/engine.c.o" "gcc" "CMakeFiles/game.dir/src/engine.c.o.d"
+  "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/input.c" "CMakeFiles/game.dir/src/input.c.o" "gcc" "CMakeFiles/game.dir/src/input.c.o.d"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c" "CMakeFiles/game.dir/src/main.c.o" "gcc" "CMakeFiles/game.dir/src/main.c.o.d"
+  "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/player.c" "CMakeFiles/game.dir/src/player.c.o" "gcc" "CMakeFiles/game.dir/src/player.c.o.d"
   "/media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c" "CMakeFiles/game.dir/src/window.c.o" "gcc" "CMakeFiles/game.dir/src/window.c.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )
