@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/media/nihad/HDD231/C-Learning/sdl3-knight-game/CMakeLists.txt"
+  "/media/nihad/HDD234/C-Learning/sdl3-knight-game/CMakeLists.txt"
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"

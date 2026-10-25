@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/nihad/HDD231/C-Learning/sdl3-knight-game
+CMAKE_SOURCE_DIR = /media/nihad/HDD234/C-Learning/sdl3-knight-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/nihad/HDD231/C-Learning/sdl3-knight-game/build
+CMAKE_BINARY_DIR = /media/nihad/HDD234/C-Learning/sdl3-knight-game/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -72,50 +72,65 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/codegen:
 .PHONY : CMakeFiles/game.dir/codegen
 
+CMakeFiles/game.dir/src/asset_loader.c.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/asset_loader.c.o: /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c
+CMakeFiles/game.dir/src/asset_loader.c.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game.dir/src/asset_loader.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/asset_loader.c.o -MF CMakeFiles/game.dir/src/asset_loader.c.o.d -o CMakeFiles/game.dir/src/asset_loader.c.o -c /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c
+
+CMakeFiles/game.dir/src/asset_loader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/asset_loader.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c > CMakeFiles/game.dir/src/asset_loader.c.i
+
+CMakeFiles/game.dir/src/asset_loader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/asset_loader.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c -o CMakeFiles/game.dir/src/asset_loader.c.s
+
 CMakeFiles/game.dir/src/engine.c.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c
+CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c
 CMakeFiles/game.dir/src/engine.c.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game.dir/src/engine.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/engine.c.o -MF CMakeFiles/game.dir/src/engine.c.o.d -o CMakeFiles/game.dir/src/engine.c.o -c /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/game.dir/src/engine.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/engine.c.o -MF CMakeFiles/game.dir/src/engine.c.o.d -o CMakeFiles/game.dir/src/engine.c.o -c /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c
 
 CMakeFiles/game.dir/src/engine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/engine.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c > CMakeFiles/game.dir/src/engine.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c > CMakeFiles/game.dir/src/engine.c.i
 
 CMakeFiles/game.dir/src/engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/engine.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c -o CMakeFiles/game.dir/src/engine.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c -o CMakeFiles/game.dir/src/engine.c.s
 
 CMakeFiles/game.dir/src/main.c.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c
+CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c
 CMakeFiles/game.dir/src/main.c.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/game.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.c.o -MF CMakeFiles/game.dir/src/main.c.o.d -o CMakeFiles/game.dir/src/main.c.o -c /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.c.o -MF CMakeFiles/game.dir/src/main.c.o.d -o CMakeFiles/game.dir/src/main.c.o -c /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c
 
 CMakeFiles/game.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c > CMakeFiles/game.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c > CMakeFiles/game.dir/src/main.c.i
 
 CMakeFiles/game.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/main.c -o CMakeFiles/game.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/main.c -o CMakeFiles/game.dir/src/main.c.s
 
 CMakeFiles/game.dir/src/window.c.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/window.c.o: /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c
+CMakeFiles/game.dir/src/window.c.o: /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c
 CMakeFiles/game.dir/src/window.c.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game.dir/src/window.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/window.c.o -MF CMakeFiles/game.dir/src/window.c.o.d -o CMakeFiles/game.dir/src/window.c.o -c /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/game.dir/src/window.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/window.c.o -MF CMakeFiles/game.dir/src/window.c.o.d -o CMakeFiles/game.dir/src/window.c.o -c /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c
 
 CMakeFiles/game.dir/src/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/window.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c > CMakeFiles/game.dir/src/window.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c > CMakeFiles/game.dir/src/window.c.i
 
 CMakeFiles/game.dir/src/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/window.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/window.c -o CMakeFiles/game.dir/src/window.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/window.c -o CMakeFiles/game.dir/src/window.c.s
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/src/asset_loader.c.o" \
 "CMakeFiles/game.dir/src/engine.c.o" \
 "CMakeFiles/game.dir/src/main.c.o" \
 "CMakeFiles/game.dir/src/window.c.o"
@@ -123,6 +138,7 @@ game_OBJECTS = \
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+game: CMakeFiles/game.dir/src/asset_loader.c.o
 game: CMakeFiles/game.dir/src/engine.c.o
 game: CMakeFiles/game.dir/src/main.c.o
 game: CMakeFiles/game.dir/src/window.c.o
@@ -131,7 +147,7 @@ game: CMakeFiles/game.dir/compiler_depend.ts
 game: /usr/lib/x86_64-linux-gnu/libSDL3_image.so.0.2.4
 game: /usr/lib/x86_64-linux-gnu/libSDL3.so.0.2.10
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +159,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd /media/nihad/HDD231/C-Learning/sdl3-knight-game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/nihad/HDD231/C-Learning/sdl3-knight-game /media/nihad/HDD231/C-Learning/sdl3-knight-game /media/nihad/HDD231/C-Learning/sdl3-knight-game/build /media/nihad/HDD231/C-Learning/sdl3-knight-game/build /media/nihad/HDD231/C-Learning/sdl3-knight-game/build/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/nihad/HDD234/C-Learning/sdl3-knight-game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/nihad/HDD234/C-Learning/sdl3-knight-game /media/nihad/HDD234/C-Learning/sdl3-knight-game /media/nihad/HDD234/C-Learning/sdl3-knight-game/build /media/nihad/HDD234/C-Learning/sdl3-knight-game/build /media/nihad/HDD234/C-Learning/sdl3-knight-game/build/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/game.dir/depend
 

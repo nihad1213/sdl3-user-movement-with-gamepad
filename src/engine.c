@@ -3,9 +3,7 @@
 #include <stdlib.h>
 #include <SDL3/SDL.h>
 
-static bool load_engine_assets(Engine* engine, const char* image_path);
-
-Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags flags) {
+Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags flags, const char* bg_path) {
     if (!SDL_Init(SDL_INIT_VIDEO)) {
         SDL_Log("Failed to initialize SDL: %s", SDL_GetError());
         return NULL;
@@ -18,15 +16,8 @@ Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags fl
         return NULL;
     }
 
-    engine->window = create_window(title, width, height, flags);
+    engine->window = create_window(title, width, height, flags, bg_path);
     if (engine->window == NULL) {
-        free(engine);
-        SDL_Quit();
-        return NULL;
-    }
-
-    if (!load_engine_assets(engine, "../assets/bg.gif")) {
-        destroy_window(engine->window);
         free(engine);
         SDL_Quit();
         return NULL;
@@ -47,9 +38,9 @@ void engine_run(Engine* engine) {
         }
 
         // TEST TO SEE WINDOW IN LINUX WILL CHANGE IN FUTURE
-        SDL_SetRenderDrawColor(engine->window->renderer, 40, 40, 40, 255);
-        SDL_RenderClear(engine->window->renderer);
-
+        // SDL_SetRenderDrawColor(engine->window->renderer, 40, 40, 40, 255);
+        // SDL_RenderClear(engine->window->renderer);
+        render_background(engine->window);
         SDL_RenderPresent(engine->window->renderer);
     }
 }
@@ -62,15 +53,4 @@ void engine_shutdown(Engine* engine) {
         free(engine);
     }
     SDL_Quit();
-}
-
-
-
-static bool load_engine_assets(Engine* engine, const char* image_path) {
-    engine->background_texture = IMG_LoadTexture(engine->window->renderer, image_path);
-    if (engine->background_texture == NULL) {
-        SDL_Log("Failed to load background image: %s", SDL_GetError());
-        return false;
-    }
-    return true;
 }

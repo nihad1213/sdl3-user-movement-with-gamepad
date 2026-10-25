@@ -6,10 +6,9 @@
 
 typedef struct {
     Window* window;
-    SDL_Texture* background_texture;
     bool is_running;
 } Engine;
 
-Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags flags);
+Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags flags, const char* bg_path);
 void engine_run(Engine* engine);
 void engine_shutdown(Engine* engine);

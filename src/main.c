@@ -3,7 +3,7 @@
 
 int main() {
 
-    Engine* engine = engine_init("Arena Game",  1280, 720, SDL_WINDOW_RESIZABLE);
+    Engine* engine = engine_init("Arena Game",  1280, 720, SDL_WINDOW_RESIZABLE, "../assets/arena.png");
     if (engine == NULL) {
         return 1;
     }

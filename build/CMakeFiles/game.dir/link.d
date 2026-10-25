@@ -2,6 +2,7 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
+  CMakeFiles/game.dir/src/asset_loader.c.o \
   CMakeFiles/game.dir/src/engine.c.o \
   CMakeFiles/game.dir/src/main.c.o \
   CMakeFiles/game.dir/src/window.c.o \
@@ -89,6 +90,8 @@ game: \
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
+
+CMakeFiles/game.dir/src/asset_loader.c.o:
 
 CMakeFiles/game.dir/src/engine.c.o:
 

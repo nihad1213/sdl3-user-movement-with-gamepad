@@ -1,8 +1,8 @@
 CMakeFiles/game.dir/src/engine.c.o: \
- /media/nihad/HDD231/C-Learning/sdl3-knight-game/src/engine.c \
+ /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/engine.c \
  /usr/include/stdc-predef.h \
- /media/nihad/HDD231/C-Learning/sdl3-knight-game/include/engine.h \
- /media/nihad/HDD231/C-Learning/sdl3-knight-game/include/window.h \
+ /media/nihad/HDD234/C-Learning/sdl3-knight-game/include/engine.h \
+ /media/nihad/HDD234/C-Learning/sdl3-knight-game/include/window.h \
  /usr/include/SDL3/SDL_video.h /usr/include/SDL3/SDL_stdinc.h \
  /usr/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
