@@ -1,4 +1,5 @@
 #include "engine.h"
+#include "asset_loader.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL3/SDL.h>
@@ -23,6 +24,11 @@ Engine* engine_init(const char* title, int width, int height, SDL_WindowFlags fl
         return NULL;
     }
 
+    engine->window->background = load_texture(engine->window->renderer, bg_path);
+    if (engine->window->background == NULL) {
+        SDL_Log("Warning: Proceeding without background asset.");
+    }
+
     engine->is_running = true;
     return engine;
 }
@@ -37,9 +43,6 @@ void engine_run(Engine* engine) {
             }
         }
 
-        // TEST TO SEE WINDOW IN LINUX WILL CHANGE IN FUTURE
-        // SDL_SetRenderDrawColor(engine->window->renderer, 40, 40, 40, 255);
-        // SDL_RenderClear(engine->window->renderer);
         render_background(engine->window);
         SDL_RenderPresent(engine->window->renderer);
     }

@@ -2,8 +2,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o: \
  /media/nihad/HDD234/C-Learning/sdl3-knight-game/src/asset_loader.c \
  /usr/include/stdc-predef.h \
  /media/nihad/HDD234/C-Learning/sdl3-knight-game/include/asset_loader.h \
- /usr/include/SDL3_image/SDL_image.h /usr/include/SDL3/SDL.h \
- /usr/include/SDL3/SDL_stdinc.h /usr/include/SDL3/SDL_platform_defines.h \
+ /usr/include/SDL3/SDL.h /usr/include/SDL3/SDL_stdinc.h \
+ /usr/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -65,4 +65,4 @@ CMakeFiles/game.dir/src/asset_loader.c.o: \
  /usr/include/SDL3/SDL_storage.h /usr/include/SDL3/SDL_system.h \
  /usr/include/SDL3/SDL_time.h /usr/include/SDL3/SDL_timer.h \
  /usr/include/SDL3/SDL_tray.h /usr/include/SDL3/SDL_version.h \
- /usr/include/SDL3/SDL_oldnames.h
+ /usr/include/SDL3/SDL_oldnames.h /usr/include/SDL3_image/SDL_image.h
